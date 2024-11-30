@@ -1,0 +1,27 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .display-4 {
+    font-size: 3rem; /* 元の大きさ */
+  }
+  .subtitle {
+    font-size: 2rem; /* Bubble より小さく、段落より大きい */
+  }
+
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
